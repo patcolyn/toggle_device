@@ -10,9 +10,9 @@ set STATUS=%STATUS:~14,7%
 rem :: Toggle device
 if %STATUS%==running (
     devcon disable %HARDWARE_ID%
-    msg %USERNAME% Touchscreen Disabled
+    msg %USERNAME% Device disabled
 )
 if %STATUS%==disable (
     devcon enable %HARDWARE_ID%
-    msg %USERNAME% Touchscreen Enabled
+    msg %USERNAME% Device enabled
 )
