@@ -1,5 +1,5 @@
 '' User variables
-Set batchPath = "toggle_touchscreen.bat"
+Set batchPath = "toggle_device.bat"
 
 Set shortcutName = "toggle_touchscreen.lnk"
 Set enabledIconPath = "C:\Windows\System32\SHELL32.dll"
